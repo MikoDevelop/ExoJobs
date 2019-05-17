@@ -50,12 +50,12 @@ date_default_timezone_set($lang->t('app|timezone'));
  */
 
 // SMTP SETTINGS
-define('SMTP_ENABLED', false);
+define('SMTP_ENABLED', true);
 define('SMTP_AUTH', true);
 define('SMTP_URL', 'smtp.gmail.com');
 define('SMTP_USER', 'username@gmail.com');
 define('SMTP_PASS', 'password');
-define('SMTP_PORT', 465);
+define('SMTP_PORT', 365);
 define('SMTP_SECURE', 'ssl');
 
 // APPLICATION URL PATHS
