@@ -50,7 +50,7 @@ date_default_timezone_set($lang->t('app|timezone'));
  */
 
 // SMTP SETTINGS
-define('SMTP_ENABLED', true);
+define('SMTP_ENABLED', false);
 define('SMTP_AUTH', true);
 define('SMTP_URL', 'smtp.gmail.com');
 define('SMTP_USER', 'username@gmail.com');
